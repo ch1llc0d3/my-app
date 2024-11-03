@@ -1,14 +1,9 @@
-import Vue from 'vue'
-import App from './App.vue'
-import router from './components/router'
-// src/main.js
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './components/router'; // Ensure router is set up for Vue 3 syntax
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-
-Vue.config.productionTip = false
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+const app = createApp(App);
+app.use(router);
+app.mount('#app');
