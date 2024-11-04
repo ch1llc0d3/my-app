@@ -6,17 +6,12 @@
           Haz tus listas para poder cumplir con tus objetivos.<br>
           Add tus tareas de forma manual o desde una API. 
         </p>
-        <img src="/src/assets/todo.png" class="img-fluid mb-4 logo" alt="Vue logo" />
+        <img src="/src/assets/todo.avif" class="img-fluid mb-4 logo" alt="Vue logo" />
         <h2 class="text-info mt-4">Secciones de la Aplicación</h2>
         <p class="text-muted">
-          <ol>
-            <li>          <strong>Añadir Tarea:</strong><br> Permite ingresar nuevas tareas manualmente. <br />
-            </li>
-            <li>          <strong>Lista de Tareas:</strong><br> Muestra todas las tareas extraídas desde la API, permitiendo marcarlas como completadas o eliminarlas. <br />
-            </li>
-            <li>          <strong>Vista Combinada:</strong><br> Combina las funcionalidades de añadir tareas manualmente y ver las tareas de la API al mismo tiempo.
-            </li>
-          </ol>
+            <strong>Añadir Tarea:</strong>Permite ingresar nuevas tareas manualmente. <br />
+            <strong>Lista de Tareas:</strong>Muestra todas las tareas extraídas desde la API, permitiendo marcarlas como completadas o eliminarlas. <br />
+            <strong>Vista Combinada:</strong>Combina las funcionalidades de añadir tareas manualmente y ver las tareas de la API al mismo tiempo.
         </p>
       </div>
     </div>
@@ -46,6 +41,7 @@
     border-radius: 50%; /* Bordes redondeados */
     box-shadow: 0 0 20px rgba(0, 123, 255, 0.5); /* Sombra más prominente */
     transition: transform 0.3s, box-shadow 0.3s; /* Efecto de transición */
+    max-width: 200px; /*
   }
   
   .logo:hover {
