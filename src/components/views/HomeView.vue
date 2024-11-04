@@ -1,16 +1,22 @@
 <template>
     <div class="container mt-5">
       <div class="text-center">
-        <h1 class="display-4 text-primary mb-4">Bienvenido a la Aplicación de Tareas con Vue</h1>
+        <h1 class="display-4 text-primary mb-4">Add Tasks con Vue</h1>
         <p class="lead text-secondary mb-4">
-          Esta aplicación te permite gestionar tus tareas de manera eficiente. Puedes añadir nuevas tareas manualmente o extraerlas desde una API.
+          Haz tus listas para poder cumplir con tus objetivos.<br>
+          Add tus tareas de forma manual o desde una API. 
         </p>
-        <img src="/src/assets/vue.svg" class="img-fluid mb-4 logo" alt="Vue logo" />
+        <img src="/src/assets/todo.png" class="img-fluid mb-4 logo" alt="Vue logo" />
         <h2 class="text-info mt-4">Secciones de la Aplicación</h2>
         <p class="text-muted">
-          <strong>Añadir Tarea:</strong> Permite ingresar nuevas tareas manualmente. <br />
-          <strong>Lista de Tareas:</strong> Muestra todas las tareas extraídas desde la API, permitiendo marcarlas como completadas o eliminarlas. <br />
-          <strong>Vista Combinada:</strong> Combina las funcionalidades de añadir tareas manualmente y ver las tareas de la API al mismo tiempo.
+          <ol>
+            <li>          <strong>Añadir Tarea:</strong><br> Permite ingresar nuevas tareas manualmente. <br />
+            </li>
+            <li>          <strong>Lista de Tareas:</strong><br> Muestra todas las tareas extraídas desde la API, permitiendo marcarlas como completadas o eliminarlas. <br />
+            </li>
+            <li>          <strong>Vista Combinada:</strong><br> Combina las funcionalidades de añadir tareas manualmente y ver las tareas de la API al mismo tiempo.
+            </li>
+          </ol>
         </p>
       </div>
     </div>
