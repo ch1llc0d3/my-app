@@ -1,9 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '@/views/HomeView.vue';
-import AddTask from '@/views/AddTask.vue';
-import TaskList from '@/views/TaskList.vue';
-import CombinedView from '@/views/CombinedView.vue';
-
+import HomeView from '/src/components/views/HomeView.vue';
+import AddTask from '/src/components/views/AddTask.vue';
+import TaskList from '/src/components/views/TaskList.vue';
+import CombinedView from '/src/components/views/Combined.vue'
 const routes = [
   {
     path: '/',

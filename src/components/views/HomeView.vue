@@ -5,7 +5,7 @@
         <p class="lead text-secondary mb-4">
           Esta aplicación te permite gestionar tus tareas de manera eficiente. Puedes añadir nuevas tareas manualmente o extraerlas desde una API.
         </p>
-        <img src="@/assets/logo.png" class="img-fluid mb-4 logo" alt="Vue logo" />
+        <img src="/src/assets/vue.svg" class="img-fluid mb-4 logo" alt="Vue logo" />
         <h2 class="text-info mt-4">Secciones de la Aplicación</h2>
         <p class="text-muted">
           <strong>Añadir Tarea:</strong> Permite ingresar nuevas tareas manualmente. <br />
